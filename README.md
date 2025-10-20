@@ -1,6 +1,6 @@
 # Brain Developer Technical Trial
 
-**Duration**: 4-6 hours  
+**Duration**: 4-6 hours (You will be paid for 5 hours)
 **Level**: Senior Software Engineer (AI + Fullstack)  
 **Language**: English
 
@@ -353,9 +353,10 @@ A: Environment variable. Include `.env.example` but never commit actual keys.
 ## 📬 Submission
 
 When ready, send us:
-1. Link to your GitHub repository (public or invite us as collaborator)
+1. Link to your GitHub repository (public or invite us as collaborator) to the recruiting team that contacted you
 2. Brief video/Loom walkthrough (5-10 minutes)
 3. Any notes about your approach or challenges faced
+4. Your payment information to receive your hours
 
 **Time Expectation**: 4-6 hours for core requirements. Take your time to do it well rather than rushing.
 
