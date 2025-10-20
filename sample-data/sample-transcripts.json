@@ -1,0 +1,118 @@
+[
+  {
+    "transcript_id": "meeting-001",
+    "title": "Q4 Marketing Strategy Meeting",
+    "occurred_at": "2025-10-15T14:00:00Z",
+    "duration_minutes": 45,
+    "participants": [
+      {
+        "name": "Sarah Chen",
+        "email": "sarah@acme.com",
+        "role": "speaker"
+      },
+      {
+        "name": "Michael Rodriguez",
+        "email": "mike@acme.com",
+        "role": "speaker"
+      },
+      {
+        "name": "Jennifer Lee",
+        "email": "jen@acme.com",
+        "role": "participant"
+      }
+    ],
+    "transcript": "Sarah: Thanks everyone for joining. Let's dive into our Q4 marketing strategy. We need to discuss our budget allocation and campaign priorities.\n\nMichael: Absolutely. I've been reviewing our Q3 numbers, and I think we should increase our content marketing budget by 25%. Our blog posts have been generating significant leads.\n\nJennifer: I agree with Mike. The data shows clear ROI. I'd also suggest we explore influencer partnerships for our enterprise segment.\n\nSarah: Great points. Let's make it official - we'll increase content budget by 25% and allocate $50k for influencer partnerships. Mike, can you prepare a detailed breakdown by Friday?\n\nMichael: Absolutely, I'll have it ready.\n\nSarah: Perfect. One more thing - we need to decide on our target accounts for ABM campaigns. Jennifer, your thoughts?\n\nJennifer: I've identified 15 high-value accounts in the healthcare and fintech sectors. I'll share the list in Slack after this call.\n\nSarah: Excellent. Let's reconvene next Tuesday to finalize the campaign roadmap. Thanks everyone!",
+    "metadata": {
+      "platform": "zoom",
+      "recording_url": "https://zoom.us/rec/play/example-001"
+    }
+  },
+  {
+    "transcript_id": "meeting-002",
+    "title": "Technical Architecture Review - Database Scaling",
+    "occurred_at": "2025-10-12T10:30:00Z",
+    "duration_minutes": 60,
+    "participants": [
+      {
+        "name": "Alex Kumar",
+        "email": "alex@techcorp.io",
+        "role": "speaker"
+      },
+      {
+        "name": "Lisa Wang",
+        "email": "lisa.wang@techcorp.io",
+        "role": "speaker"
+      },
+      {
+        "name": "David Chen",
+        "email": "d.chen@techcorp.io",
+        "role": "participant"
+      }
+    ],
+    "transcript": "Alex: Good morning everyone. Today we need to address our database performance issues. We're seeing query times spike above 2 seconds during peak hours.\n\nLisa: I've been monitoring the metrics. The main bottleneck is our user_events table - it's grown to 500 million rows without proper indexing.\n\nDavid: Have we considered partitioning by date? Most queries only look at recent data anyway.\n\nAlex: Good point. Lisa, what's your take?\n\nLisa: Partitioning makes sense. I'd also recommend moving our analytics queries to a read replica. We're seeing lock contention between OLTP and OLAP workloads.\n\nAlex: Agreed. Let's partition user_events by month and set up a read replica for analytics. David, can you handle the replica setup?\n\nDavid: Yes, I'll have it configured by end of week.\n\nLisa: I'll work on the partitioning migration. We should do this during the maintenance window next weekend.\n\nAlex: Perfect. One concern - how do we handle the backfill for existing data?\n\nLisa: We'll need a background job. I estimate 6-8 hours for the full migration. We should monitor it closely.\n\nDavid: I'll set up additional monitoring dashboards so we can track the migration in real-time.\n\nAlex: Great teamwork. Let's sync again on Thursday to review the migration plan. Meeting adjourned.",
+    "metadata": {
+      "platform": "google-meet",
+      "recording_url": "https://meet.google.com/rec/example-002"
+    }
+  },
+  {
+    "transcript_id": "meeting-003",
+    "title": "Client Feedback Session - Product Roadmap Concerns",
+    "occurred_at": "2025-10-18T15:00:00Z",
+    "duration_minutes": 35,
+    "participants": [
+      {
+        "name": "Robert Martinez",
+        "email": "robert@clientcorp.com",
+        "role": "speaker"
+      },
+      {
+        "name": "Emily Foster",
+        "email": "emily@ouraagency.com",
+        "role": "speaker"
+      },
+      {
+        "name": "Tom Wilson",
+        "email": "tom@clientcorp.com",
+        "role": "participant"
+      }
+    ],
+    "transcript": "Emily: Thank you for meeting with us today, Robert and Tom. We wanted to address the concerns you raised last week about our product roadmap.\n\nRobert: Appreciate you making time. To be frank, we're frustrated. The features we were promised for Q3 still haven't shipped. Our team is losing confidence.\n\nTom: The API integration delays have been particularly painful. We've had to build workarounds that are now technical debt.\n\nEmily: I completely understand the frustration, and I apologize for the delays. Let me explain what happened and how we're fixing it.\n\nRobert: We're listening.\n\nEmily: The Q3 delays were caused by two unexpected issues - a critical security vulnerability we had to patch immediately, and key engineer turnover. Neither was communicated well to you, which is on us.\n\nTom: I appreciate the transparency, but what's the plan going forward?\n\nEmily: Here's what we're committing to: First, the API integration will be completed by October 25th - that's one week from now. Second, we're assigning a dedicated project manager to your account for better communication. Third, we'll provide weekly progress updates every Friday.\n\nRobert: That sounds better, but we've heard commitments before. What's different this time?\n\nEmily: Fair question. This time we've already completed 80% of the API work. You can test it in our staging environment today. And the dedicated PM starts Monday.\n\nTom: Can we get penalty clauses in our contract for future delays?\n\nEmily: Let me take that back to leadership. I think we can work something out. Can I get back to you by Wednesday?\n\nRobert: Wednesday works. Look, we want this partnership to succeed, but we need reliability.\n\nEmily: Understood. We value this partnership and we'll earn back your trust through action, not just words. I'll send you the staging API credentials within the hour.\n\nRobert: Okay. Let's see how this week goes.",
+    "metadata": {
+      "platform": "zoom",
+      "recording_url": "https://zoom.us/rec/play/example-003",
+      "client_name": "ClientCorp",
+      "meeting_type": "escalation"
+    }
+  },
+  {
+    "transcript_id": "meeting-004",
+    "title": "Weekly Team Standup - Engineering",
+    "occurred_at": "2025-10-20T09:00:00Z",
+    "duration_minutes": 15,
+    "participants": [
+      {
+        "name": "Chris Park",
+        "email": "chris@startup.dev",
+        "role": "speaker"
+      },
+      {
+        "name": "Priya Sharma",
+        "email": "priya@startup.dev",
+        "role": "speaker"
+      },
+      {
+        "name": "Jake Morrison",
+        "email": "jake@startup.dev",
+        "role": "speaker"
+      }
+    ],
+    "transcript": "Chris: Good morning team. Let's keep this quick. Priya, what did you ship last week?\n\nPriya: Finished the authentication refactor. It's in production and monitoring looks good. This week I'm tackling the notification system redesign.\n\nChris: Nice work. Any blockers?\n\nPriya: Nope, all clear.\n\nChris: Great. Jake, your update?\n\nJake: I completed the payment gateway integration tests. Found a race condition bug in the checkout flow - it's fixed now. This week I'm starting on the analytics dashboard.\n\nChris: The race condition - is that the one causing failed payments?\n\nJake: Exactly. It only happened under high concurrency. Fixed by adding proper transaction locking.\n\nChris: Excellent catch. Okay, my update - I finished the API documentation and started performance profiling. We have some N+1 query issues I'll be optimizing this week.\n\nPriya: Need any help with that?\n\nChris: Not yet, but I might pair with you on the complex queries. I'll ping you if needed.\n\nJake: Sounds good. Are we still on track for the end-of-month release?\n\nChris: Yes, looking solid. Keep up the great work everyone. That's it for today!",
+    "metadata": {
+      "platform": "zoom",
+      "recording_url": "https://zoom.us/rec/play/example-004",
+      "meeting_type": "standup"
+    }
+  }
+]
+
